@@ -1,0 +1,13 @@
+title: Benchmark Description Schema
+version: 0.1
+description: YAML specification of a schema to describe a (HPC) benchmark including execution
+authors: [Andreas Herten]
+schema:
+  filetype: [md, docx]
+  filename: benchmark name, spaces to dashes
+  title: benchmark name
+  sections:
+    Overview:
+      description: One paragraph about the application and benchmark
+    Source:
+      description: Location of sources, explicit version of main source (Git hash also sufficient)
